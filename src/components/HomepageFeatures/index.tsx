@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Open Source',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Our music player is <strong>open-source</strong>, which means its source code is freely available for anyone to inspect, modify, and contribute to. This transparency fosters trust and collaboration within the community.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Free to Use',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The player is <strong>completely free</strong> to use. There are no hidden fees or charges, making it accessible to everyone without any financial barriers.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Extensible',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Designed with <strong>extensibility</strong> in mind, the player supports plugins and extensions. This allows you to customize and enhance its functionality to suit your individual needs and preferences.
       </>
     ),
   },
