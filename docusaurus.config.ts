@@ -87,6 +87,14 @@ const config: Config = {
               label: 'Download',
               to: '/docs/download',
             },
+            {
+              label: 'Plugin',
+              to: '/docs/plugin/',
+            },
+            {
+              label: 'Theme',
+              to: '/docs/plugin/',
+            }
           ],
         },
         {
